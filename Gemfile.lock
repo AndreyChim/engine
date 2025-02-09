@@ -119,6 +119,7 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
+    method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.25.4)
     mutex_m (0.3.0)
@@ -257,6 +258,10 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
+    view_component (3.21.0)
+      activesupport (>= 5.2.0, < 8.1)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
     websocket-driver (0.7.7)
       base64
       websocket-extensions (>= 0.1.0)
@@ -285,6 +290,7 @@ DEPENDENCIES
   rails (~> 7.1.0)
   rubocop-rails-omakase
   tailwindcss-rails (~> 3.3)
+  view_component
 
 BUNDLED WITH
    2.6.3
