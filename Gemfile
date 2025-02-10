@@ -21,3 +21,4 @@ gem 'rails', '~> 7.1.0'
 gem 'concurrent-ruby', '1.3.4'   
 gem 'foreman'
 gem 'view_component'
+gem "lookbook"
