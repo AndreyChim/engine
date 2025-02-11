@@ -1,7 +1,7 @@
 module Engine
   class HomeController < ApplicationController
     def index
-      # @home = Home.all
+     render plain: "Hello from Engine::HomeController!"
     end
   end
 end
